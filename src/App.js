@@ -4,7 +4,7 @@ import { MensagemStatica } from "./components/Mensagem-Statica";
 import { Links } from "./components/Links";
 
 import { Page1 } from "./Pages/page1";
-import { page2 } from "./Pages/page2";
+import { Page2 } from "./Pages/page2";
 import { Page3 } from "./Pages/page3";
 
 
@@ -30,7 +30,7 @@ function App() {
         sera renderizado com a url específica*/}
         <Route path="/" exact component={Page1} /> {/*quando ultilizado apenas o "/" como url, 
         deve se definir o atribulo "exact" para definir o caminho exato de nossa url */}
-        <Route path="/page2" exact component={page2} />
+        <Route path="/page2" exact component={Page2} />
         <Route path="/page3" exact component={Page3} />
       </Switch>
 

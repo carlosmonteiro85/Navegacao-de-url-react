@@ -1,4 +1,4 @@
-export function page2(props) {
+export function Page2(props) {
 
   return (
 
